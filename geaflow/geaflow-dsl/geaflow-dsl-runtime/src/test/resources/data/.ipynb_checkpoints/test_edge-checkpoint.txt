@@ -1,0 +1,8 @@
+1,2,knows,1.0
+2,3,knows,1.0
+3,1,knows,1.0
+1,4,knows,1.0
+4,1,knows,1.0
+6,2,knows,1.0
+2,5,knows,1.0
+3,6,knows,1.0

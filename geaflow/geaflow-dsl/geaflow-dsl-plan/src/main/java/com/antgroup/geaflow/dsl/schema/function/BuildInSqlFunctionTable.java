@@ -30,6 +30,7 @@ import com.antgroup.geaflow.dsl.udf.graph.IncKHopAlgorithm;
 import com.antgroup.geaflow.dsl.udf.graph.IncWeakConnectedComponents;
 import com.antgroup.geaflow.dsl.udf.graph.KCore;
 import com.antgroup.geaflow.dsl.udf.graph.KHop;
+import com.antgroup.geaflow.dsl.udf.graph.LoopDetection;//环路检测
 import com.antgroup.geaflow.dsl.udf.graph.PageRank;
 import com.antgroup.geaflow.dsl.udf.graph.SingleSourceShortestPath;
 import com.antgroup.geaflow.dsl.udf.graph.TriangleCount;
@@ -209,6 +210,7 @@ public class BuildInSqlFunctionTable extends ListSqlOperatorTable {
             .add(GeaFlowFunction.of(KCore.class))
             .add(GeaFlowFunction.of(ClosenessCentrality.class))
             .add(GeaFlowFunction.of(WeakConnectedComponents.class))
+            .add(GeaFlowFunction.of(LoopDetection.class))//环路检测
             .add(GeaFlowFunction.of(TriangleCount.class))
             .add(GeaFlowFunction.of(IncWeakConnectedComponents.class))
             .add(GeaFlowFunction.of(CommonNeighbors.class))

@@ -1,0 +1,6 @@
+1,person,Alice,34
+2,person,Bob,36
+3,person,Charlie,30
+4,person,ZZ,20
+5,person,Lily,12
+6,person,David,60
